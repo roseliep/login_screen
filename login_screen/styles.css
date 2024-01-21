@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background: #cad8f1;
+  height: 100vh;
+}
+
+.form-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 480px;
+  max-height: 536px;
+  background: #faeef2;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.form__title {
+  font-weight: bold;
+  font-size: 33px;
+  margin-bottom: 10px;
+  color: #FFC0CB;
+}
+
+.form__fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+.form__label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 12px;
+  margin-top: 32px;
+}
+
+.form__label[for="remember-me"] {
+  display: inline;
+  margin-left: 12px;
+  vertical-align: middle;
+  font-weight: 400;
+}
+
+.form__input {
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+.form__input:hover {
+  border: 5px #b33b72;
+}
+
+.form__input[type="text"],
+.form__input[type="password"] {
+  border-radius: 30px;
+  min-width: 400px;
+  min-height: 60px;
+}
+
+.form__input::placeholder {
+  font-size: 16px;
+  color: #f1ced9;
+}
+
+.form__input[type="checkbox"] {
+  min-width: 20px;
+  min-height: 20px;
+}
+
+input[type="checkbox"]:checked {
+  accent-color: #b33b72;
+}
+
+.form__button[type="submit"] {
+  min-width: 117px;
+  min-height: 60px;
+  background: #b33b72;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+}
+
+.form__button:hover {
+  background-color: #fff;
+  color: #b33b72;
+}
+
+.form__button[type="reset"] {
+  border: none;
+  background: none;
+  color: #b33b72;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.form__button[type="reset"]:hover {
+  color: #fff;
+}
+
+.form__input[type="text"]:focus,
+.form__input[type="password"]:focus {
+  outline-color: #2f71e5;
+  outline-style: solid;
+  outline-width: 1px;
+}
+
